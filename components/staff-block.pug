@@ -1,0 +1,15 @@
+include ../elements/swipers/master-swiper
+include ../elements/swipers/master-mini-swiper
+
+mixin staff-block 
+    section.staff-block
+        #masters.staff-block__wrapper.container
+            .staff-block__text-part 
+                .staff-block__subtitle.subtitle #STAFF
+                h2.staff-block__title.title MASTERS
+        +master-swiper()
+        +master-mini-swiper()
+        .staff-block__hide-button.button-style
+            a.staff-block__href.button-href-style(href="#") Reserve    
+
+

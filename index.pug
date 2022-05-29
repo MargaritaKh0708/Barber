@@ -1,0 +1,23 @@
+include ./components/all-components
+
+
+doctype html
+html(lang="en")
+    head
+        +head()
+    body 
+        .app
+            +header()
+            +presentation-block()
+            #more-special-group.more-special-group.h-hide
+                +service-block()
+                +about-block()
+                +staff-block()
+                +works-block()
+                +reviews-block()
+                +map-block()
+                +footer()
+        script 
+            include index.js
+
+
