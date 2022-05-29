@@ -1,219 +1,91 @@
 {
-  "name": "Project",
-  "lockfileVersion": 2,
-  "requires": true,
-  "packages": {},
+  "name": "module-2",
+  "version": "1.0.0",
+  "description": "bettroom-academy-work",
+  "main": "index.js",
   "dependencies": {
-    "pug-cli": "^1.0.0-alpha6"
-  }
+    "acorn": "^4.0.13",
+    "acorn-globals": "^3.1.0",
+    "align-text": "^0.1.4",
+    "ansi-regex": "^2.1.1",
+    "ansi-styles": "^2.2.1",
+    "asap": "^2.0.6",
+    "babel-runtime": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "babylon": "^6.18.0",
+    "call-bind": "^1.0.2",
+    "camelcase": "^1.2.1",
+    "center-align": "^0.1.3",
+    "chalk": "^1.1.3",
+    "character-parser": "^2.2.0",
+    "clean-css": "^4.2.4",
+    "cliui": "^2.1.0",
+    "commander": "^2.20.3",
+    "constantinople": "^3.1.2",
+    "core-js": "^2.6.12",
+    "decamelize": "^1.2.0",
+    "doctypes": "^1.1.0",
+    "escape-string-regexp": "^1.0.5",
+    "esutils": "^2.0.3",
+    "express": "^4.18.1",
+    "function-bind": "^1.1.1",
+    "get-intrinsic": "^1.1.1",
+    "has": "^1.0.3",
+    "has-ansi": "^2.0.0",
+    "has-symbols": "^1.0.3",
+    "has-tostringtag": "^1.0.0",
+    "is-buffer": "^1.1.6",
+    "is-core-module": "^2.9.0",
+    "is-expression": "^3.0.0",
+    "is-promise": "^2.2.2",
+    "is-regex": "^1.1.4",
+    "js-stringify": "^1.0.2",
+    "jstransformer": "^1.0.0",
+    "kind-of": "^3.2.2",
+    "lazy-cache": "^1.0.4",
+    "lodash": "^4.17.21",
+    "longest": "^1.0.1",
+    "minimist": "^1.2.6",
+    "mkdirp": "^0.5.6",
+    "object-assign": "^4.1.1",
+    "path-parse": "^1.0.7",
+    "promise": "^7.3.1",
+    "pug": "^2.0.4",
+    "pug-attrs": "^2.0.4",
+    "pug-cli": "^1.0.0-alpha6",
+    "pug-code-gen": "^2.0.3",
+    "pug-error": "^1.3.3",
+    "pug-filters": "^3.1.1",
+    "pug-lexer": "^4.1.0",
+    "pug-linker": "^3.0.6",
+    "pug-load": "^2.0.12",
+    "pug-parser": "^5.0.1",
+    "pug-runtime": "^2.0.5",
+    "pug-strip-comments": "^1.0.4",
+    "pug-walk": "^1.1.8",
+    "regenerator-runtime": "^0.11.1",
+    "repeat-string": "^1.6.1",
+    "resolve": "^1.22.0",
+    "right-align": "^0.1.3",
+    "source-map": "^0.6.1",
+    "strip-ansi": "^3.0.1",
+    "supports-color": "^2.0.0",
+    "supports-preserve-symlinks-flag": "^1.0.0",
+    "to-fast-properties": "^1.0.3",
+    "token-stream": "^0.0.1",
+    "uglify-js": "^2.8.29",
+    "uglify-to-browserify": "^1.0.2",
+    "void-elements": "^2.0.1",
+    "window-size": "^0.1.0",
+    "with": "^5.1.1",
+    "wordwrap": "^0.0.2",
+    "yargs": "^3.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "npm run build"
+  },
+  "author": "marharyta khyzhnyak",
+  "license": "ISC"
 }
-
-[
-  {
-    "stylers": [
-      {
-        "color": "#313131"
-      }
-    ]
-  },
-  {
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#212121"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.icon",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#212121"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.country",
-    "elementType": "geometry.stroke",
-    "stylers": [
-      {
-        "weight": 0.5
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.country",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.locality",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#bdbdbd"
-      }
-    ]
-  },
-  {
-    "featureType": "landscape",
-    "stylers": [
-      {
-        "weight": 0.5
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#181818"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#1b1b1b"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "geometry.fill",
-    "stylers": [
-      {
-        "color": "#2c2c2c"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#8a8a8a"
-      }
-    ]
-  },
-  {
-    "featureType": "road.arterial",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#373737"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway.controlled_access",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#4e4e4e"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "featureType": "transit",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "stylers": [
-      {
-        "color": "#313131"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#464343"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#3d3d3d"
-      }
-    ]
-  }
-]
