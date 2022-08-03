@@ -121,7 +121,9 @@
     font-size: 12px;
     padding: 5px 0;
 }
-
+.map-block__form-button {
+    background: $c-extra-lightrgray;
+}
 .map-block__href {
     text-decoration: underline;
     color: $c-gray;
@@ -132,7 +134,7 @@
 
     // Adaptive changes
     @media screen and (max-width:1000px) {
-        margin-top: 30px;
+        margin: 30px auto 0;
     }
 }
 

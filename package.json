@@ -2,6 +2,9 @@
   "name": "module-2",
   "version": "1.0.0",
   "description": "bettroom-academy-work",
+  "engines": {
+    "node": "17.x"
+  },
   "main": "index.js",
   "dependencies": {
     "acorn": "^4.0.13",
